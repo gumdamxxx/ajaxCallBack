@@ -1,6 +1,7 @@
 # 对后台返回数据结构不确定，通过递归进行各种数据兼容的回调函数，并且根据各种情况设定处理方法。
 # 详情：
-     描述 : 用于ajax成功或者失败后的回掉，弹出信息功能，弹出信息给予L框架中弹出插件。
+     描述 : 用于ajax成功或者失败后的回掉，弹出信息功能。
+     配置：需要jquery和L框架中弹出tip插件。
      调用方法 : ajaxCallbackHint(true)(data,'state','info',true,'操作成功','操作失败',false);用于ajax.error下
                ajaxCallbackHint(false)(error,'state','info','',"操作成功","操作失败",false);用于ajax.error下
      参数 : ajaxCallbackHint（success）true为ajax的success回调，false为error的回调。
